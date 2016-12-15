@@ -96,7 +96,7 @@ html {
 body {
 	height:100%;
 	width:100%;
-	font-family: 'Dosis', sans-serif;
+	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
 	font-size:1.3em;
 	color:#333;
 }
