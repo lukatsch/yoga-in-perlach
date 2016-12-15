@@ -104,7 +104,8 @@ body {
 header {
 	padding:0 6.66%;
 	background:#C9DFC8;
-	font-weight:300;
+	font-weight:400;
+	color:red;
 }
 
 header #logo {
