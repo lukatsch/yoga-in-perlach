@@ -62,7 +62,7 @@ ul li {
 ul li:before
 {
     content: '✔';
-    margin-left: -1.0em;
+    margin-left: -1.6em;
     margin-right: 0.8em;
 		color:#3B9334;
 }
