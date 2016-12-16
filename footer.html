@@ -25,6 +25,8 @@ var MailDietmar = document.getElementsByClassName("mail-dietmar");
 var MailDietmarP = "<a href = 'mailto:dietmar@yoga-in-perlach.de'>dietmar@yoga-in-perlach.de</a>"
 var MailDietmarO = "<a href = 'mailto:dietmarATTTyoga-in-ottobrunnDOTTTde'>dietmarATTTyoga-in-ottobrunnDOTTTde</a>"
 
+var logo = document.getElementById("logo");
+
 if(DomainIsOtbr) {
     var i;
     for (i = 0; i < MailIrene.length; i++) {
@@ -34,6 +36,8 @@ if(DomainIsOtbr) {
         for (j = 0; j < MailDietmar.length; j++) {
             MailDietmar[j].innerHTML = MailDietmarO;
         }
+          logo.innerHTML = '<img src="img/logo-otbr@2x.png" width="150" height="150" alt=""/>';
+
 }
 else {
     var i;

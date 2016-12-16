@@ -107,7 +107,7 @@ header {
 	font-weight:300;
 }
 
-header #logo {
+header #logo img {
 	position:absolute;
 	top:15px;
 }
