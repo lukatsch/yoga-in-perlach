@@ -18,20 +18,32 @@ var MailIrene = document.getElementsByClassName("mail-irene");
 //                 .replace(/ATTT/,'&#64;')
 //                 .replace(/DOTTT/,'&#46;')"
 // ><my-email data-user="irene" data-domain="yoga-in-perlach.de">@</my-email></a><br>"
-var MailIreneP = "<a href = "mailto:ireneATTTyoga-in-perlachDOTTTde">ireneATTTyoga-in-perlachDOTTTde</a>"
-var MailIreneO = "<a href = "mailto:ireneATTTyoga-in-ottobrunnDOTTTde">ireneATTTyoga-in-ottobrunnDOTTTde</a>"
+var MailIreneP = "<a href = 'mailto:ireneATTTyoga-in-perlachDOTTTde'>ireneATTTyoga-in-perlachDOTTTde</a>"
+var MailIreneO = "<a href = 'mailto:ireneATTTyoga-in-ottobrunnDOTTTde'>ireneATTTyoga-in-ottobrunnDOTTTde</a>"
+
+var MailDietmar = document.getElementsByClassName("mail-dietmar");
+var MailDietmarP = "<a href = 'mailto:dietmarATTTyoga-in-perlachDOTTTde'>dietmarATTTyoga-in-perlachDOTTTde</a>"
+var MailDietmarO = "<a href = 'mailto:dietmarATTTyoga-in-ottobrunnDOTTTde'>dietmarATTTyoga-in-ottobrunnDOTTTde</a>"
 
 if(DomainIsOtbr) {
     var i;
     for (i = 0; i < MailIrene.length; i++) {
         MailIrene[i].innerHTML = MailIreneO;
     }
+      var j;
+        for (j = 0; j < MailDietmar.length; j++) {
+            MailDietmar[j].innerHTML = MailDietmarO;
+        }
 }
 else {
     var i;
     for (i = 0; i < MailIrene.length; i++) {
         MailIrene[i].innerHTML = MailIreneP;
     }
+      var j;
+        for (j = 0; j < MailDietmar.length; j++) {
+            MailDietmar[j].innerHTML = MailDietmarP;
+        }
 }
 
 </script>
