@@ -4,32 +4,34 @@
 
 
 <script>
-  var MailIrene = document.getElementsByClassName("mail-irene");
-  var i;
-  for (i = 0; i < MailIrene.length; i++) {
-      MailIrene[i].innerHTML = "Mail Irene";
-  }
-</script>
 
+var DomainIsOtbr = false;
 
-<script type="text/javascript">
-if(document.URL.indexOf("ottobrunn") >= 0){
-   /*alert("your url contains the name ottobrunn");*/
-   var DomainIsOtbr = true;
+if(document.URL.indexOf("ottobrunn") >= 0) {
+    // alert("your url contains the name ottobrunn");
+    DomainIsOtbr = true;
 }
 
-var MailIrene = '<a href="mailto:irene@yoga-in-perlach.de">irene-perlach</a>';
+var MailIrene = document.getElementsByClassName("mail-irene");
+// var MailIrenePerlach = "<a href = "mailto:ireneATTTyoga-in-perlachDOTTTde"
+//      onclick = "this.href=this.href
+//                 .replace(/ATTT/,'&#64;')
+//                 .replace(/DOTTT/,'&#46;')"
+// ><my-email data-user="irene" data-domain="yoga-in-perlach.de">@</my-email></a><br>"
+var MailIreneP = "<a href = "mailto:ireneATTTyoga-in-perlachDOTTTde">ireneATTTyoga-in-perlachDOTTTde</a>"
+var MailIreneO = "<a href = "mailto:ireneATTTyoga-in-ottobrunnDOTTTde">ireneATTTyoga-in-ottobrunnDOTTTde</a>"
 
-if (DomainIsOtbr == true) {
-  MailIrene = '<a href="mailto:irene@yoga-in-ottobrunn.de">irene-ottobrunn</a>';
+if(DomainIsOtbr) {
+    var i;
+    for (i = 0; i < MailIrene.length; i++) {
+        MailIrene[i].innerHTML = MailIreneO;
+    }
 }
-
-document.getElementsByClassName("mail-irene").innerHTML = MailIrene;
-
-document.getElementsByClassName("mail-irene").innerHTML = "MailIrene";
-
-if (5 > 2) {
-    document.getElementsByClassName("demo").innerHTML = "Well done!";
+else {
+    var i;
+    for (i = 0; i < MailIrene.length; i++) {
+        MailIrene[i].innerHTML = MailIreneP;
+    }
 }
 
 </script>
