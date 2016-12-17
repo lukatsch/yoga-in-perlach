@@ -26,6 +26,7 @@ var MailDietmarP = "<a href = 'mailto:dietmar@yoga-in-perlach.de'>dietmar@yoga-i
 var MailDietmarO = "<a href = 'mailto:dietmarATTTyoga-in-ottobrunnDOTTTde'>dietmarATTTyoga-in-ottobrunnDOTTTde</a>"
 
 var logo = document.getElementById("logo");
+var title = document.getElementById("title");
 
 if(DomainIsOtbr) {
     var i;
@@ -37,6 +38,7 @@ if(DomainIsOtbr) {
             MailDietmar[j].innerHTML = MailDietmarO;
         }
           logo.innerHTML = '<img src="img/logo-otbr@2x.png" width="150" height="150" alt=""/>';
+          title.innerHTML = "Yoga in Ottobrunn – Yoga Unterricht in München in den Stadtteilen Ottobrunn und Perlach"
 
 }
 else {
