@@ -22,7 +22,7 @@ header {
 	font-size:18pt;
 }
 
-header #logo {
+header #logo img {
 	position:static;
 	display:block;
 	float:none;
