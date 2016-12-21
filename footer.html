@@ -36,7 +36,9 @@ function replace(address) {
     .replace(/DOTTT/,'.')
 }
 
-if(DomainIsOtbr) {
+var DoneHere = false;
+
+if(DomainIsOtbr && DoneHere == false) {
     var i;
     for (i = 0; i < MailIrene.length; i++) {
         MailIrene[i].innerHTML = MailIreneO;
@@ -47,7 +49,7 @@ if(DomainIsOtbr) {
         }
           logo.innerHTML = '<img src="img/logo-otbr@2x.png" width="150" height="150" alt=""/>';
           title.innerHTML = "Yoga in Ottobrunn – Yoga Unterricht in München in den Stadtteilen Ottobrunn und Perlach"
-
+          DoneHere = true;
 }
 else {
     var i;
