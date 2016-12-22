@@ -1,14 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
 
-p {
-	display:block;
-	margin-bottom:25px;
-	line-height:1.6;
+h1 {
+	font-size:38pt;
+	margin-bottom:20px;
 }
 
-h1 {
-	font-size:36pt;
+h2 {
+	font-size:21pt;
+	margin-bottom:15px;
+}
+
+h3 {
+	font-size:21pt;
+	margin-bottom:15px;
 }
 
 html {
@@ -18,7 +23,6 @@ html {
 
 header {
 	padding:15px 6.66%;
-	font-size:16px;
 	font-size:18pt;
 }
 
@@ -44,12 +48,11 @@ header nav a {
 	padding-top:3px;
 	padding-bottom:3px;
 	float:none;
-	color:#333;
 }
 
 main {
 	min-height:90%;
-	padding:30px 6.66%;
+	padding:45px 3.66%;
 }
 
 main article:first-child { /* Spalte */
@@ -68,16 +71,15 @@ main article .half_width {
 }
 
 footer {
-	padding:25px 6.66%;
+	padding:25px 3.33%;
 	text-align:center;
 }
 
-#front img {
+#start img, #kontakt img {
 	display:block;
-	width:80%;
-	height:80%;
+	width:66%;
 	margin:auto;
-	margin-bottom:15px;
+	margin-bottom:25px;
 }
 
 #yoga img {

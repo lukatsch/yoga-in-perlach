@@ -38,7 +38,7 @@ a:hover {
 }
 
 strong {
-	font-weight:bold;
+	font-weight:600;
 }
 
 p {
@@ -62,22 +62,27 @@ ul li {
 ul li:before
 {
     content: '✔';
-    margin-left: -1.6em;
-    margin-right: 0.8em;
+    margin-left: -1.8em;
+    margin-right: 0.7em;
 		color:#3B9334;
 }
 
 h1 {
-	font-size:350%;
-	font-weight: bold;
+	font-size:48pt;
+	font-weight:700;
 	margin-bottom:40px;
-	margin-top:15px;
 }
 
 h2 {
-	font-size:150%;
-	margin-bottom:40px;
-	font-weight:300;
+	font-size:24pt;
+	margin-bottom:20px;
+	font-weight:600;
+}
+
+h3 {
+		font-size:24pt;
+		margin-bottom:20px;
+		font-weight:300;
 }
 
 .glow {
@@ -97,14 +102,13 @@ body {
 	height:100%;
 	width:100%;
 	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
-	font-size:1.3em;
+	font-size:16pt;
 	color:#303130;
 }
 
 header {
 	padding:0 6.66%;
 	background:#C9DFC8;
-	font-weight:300;
 }
 
 header #logo img {
@@ -120,8 +124,10 @@ header nav a {
 	display:block;
 	float:left;
 	margin-left:60px;
-	padding:35px 0;
+	padding:36px 0;
 	color:#303130;
+	font-size:18pt;
+	font-weight:300;
 }
 
 header nav a:hover {
@@ -169,12 +175,12 @@ main my-email::before {
 }
 
 main article:first-child { /* Spalte */
-	width:33%;
+	width:28%;
 	float:left;
 }
 
 main article { /* Spalte */
-	width:61%;
+	width:66%;
 	float:right;
 }
 
@@ -185,7 +191,6 @@ main article.full_width {
 
 main article .half_width {
 	width:47%;
-	margin-top:40px;
 }
 
 footer {
@@ -217,6 +222,10 @@ footer a {
    height:400px; /* your iframe height */
    top:400px;  /* your iframe height */
    margin-top:-400px;  /* your iframe height */
+}
+
+#kurse .half_width {
+	margin-top:40px;
 }
 
 #impressum img.float_right {
