@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+body {
+	font-size:14pt;
+}
+
 h1 {
 	font-size:38pt;
 	margin-bottom:20px;
