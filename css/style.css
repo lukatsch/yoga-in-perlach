@@ -153,9 +153,6 @@ main {
 	min-height:90%;
 	padding:90px 10%;
 	padding-bottom:45px;
-	background:#f0f0f0;
-	background:#fafafa;
-	background:#f5f5f5;
 	background:#f2f4f2;
 }
 
@@ -202,10 +199,16 @@ main article .half_width {
 footer {
 	padding:25px 7%;
 	text-align:right;
+	color:#AEBFAC;
 }
 
 footer a {
-	color:gray;
+	color:#747F73;
+	padding:0 12px;
+}
+
+footer a img {
+	margin-right:8px;
 }
 
 
@@ -234,7 +237,11 @@ footer a {
 	margin-top:40px;
 }
 
+.kontakt {
+	padding-bottom:50px;
+}
+
 #impressum img.float_right {
-	margin-left:30px;
-	margin-bottom:15px;
+	margin:30px;
+	margin-right: 0;
 }

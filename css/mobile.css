@@ -88,7 +88,7 @@ footer {
 	text-align:center;
 }
 
-#start img, #kontakt img {
+#start img, .kontakt img {
 	display:block;
 	width:66%;
 	margin:auto;
