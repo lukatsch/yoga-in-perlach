@@ -30,7 +30,6 @@ h3 {
 
 h4 {
 	font-size:18pt;
-	margin-bottom:15px;
 }
 
 html {
@@ -93,13 +92,13 @@ footer {
 	text-align:center;
 }
 
-#start img, .kontakt img {
+.image {
 	display:block;
 	width:66%;
 	margin:auto;
 	margin-bottom:25px;
 }
 
-#yoga img {
+#yoga .image {
 	width:100%;
 }

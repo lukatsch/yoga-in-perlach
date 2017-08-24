@@ -48,8 +48,7 @@ p {
 }
 
 ul {
-	margin-left:30px;
-	padding-left: 25px;
+	margin-left:12px;
 }
 
 ul li {
@@ -59,12 +58,11 @@ ul li {
 	list-style-position: outside;
 }
 
-ul li:before
-{
-    content: '✔';
-    margin-left: -1.8em;
-    margin-right: 0.7em;
-		color:#3B9334;
+ul li:before {
+		content: url('../img/icons/circle-check.svg');
+		margin-right: 12px;
+		position: relative;
+		top: 4px;
 }
 
 h1 {
@@ -87,8 +85,7 @@ h3 {
 
 h4 {
 		font-size:24pt;
-		margin-bottom:20px;
-		font-weight:300;
+		font-weight:600;
 }
 
 .glow {
@@ -97,6 +94,13 @@ h4 {
 
 .green {
 	color:#3B9334;
+}
+
+.icon {
+	margin-right: 12px;
+	margin-bottom: 4px;
+	position: relative;
+	top: 7px;
 }
 
 html {
@@ -120,6 +124,25 @@ header {
 header #logo img {
 	position:absolute;
 	top:15px;
+	animation: scale 2s;
+	animation: pop 3s;
+	transform: scale(0.95,0.95);
+	animation-fill-mode: forwards;
+}
+
+@keyframes scale {
+    100% {
+        transform: scale(1,1);
+    }
+}
+
+@keyframes pop {
+    66% {
+        transform: scale(1.05,1.05);
+    }
+		    100% {
+		        transform: scale(1,1);
+		    }
 }
 
 header nav {
@@ -222,6 +245,10 @@ footer a img {
 #yoga img.float_right {
 	margin-left:30px;
 	margin-bottom:15px;
+}
+
+#kurse iframe {
+	margin-top: 20px;
 }
 
 #kurse .freeze-overlay {
