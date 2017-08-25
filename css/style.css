@@ -38,13 +38,13 @@ a:hover {
 }
 
 strong {
-	font-weight:600;
+	font-weight:500;
 }
 
 p {
 	display:block;
 	margin-top:25px;
-	line-height:1.6;
+	/*line-height:1.6;*/
 }
 
 ul {
@@ -63,6 +63,11 @@ ul li:before {
 		margin-right: 12px;
 		position: relative;
 		top: 4px;
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
+	line-height: normal;
 }
 
 h1 {
@@ -111,14 +116,18 @@ html {
 body {
 	height:100%;
 	width:100%;
-	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
-	font-size:16pt;
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: 300;
+	font-size:14pt;
 	color:#303130;
 }
 
 header {
 	padding:0 6.66%;
 	background:#C9DFC8;
+	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
+	font-size:18pt;
+	font-weight:300;
 }
 
 header #logo img {
@@ -155,8 +164,6 @@ header nav a {
 	margin-left:60px;
 	padding:36px 0;
 	color:#303130;
-	font-size:18pt;
-	font-weight:300;
 }
 
 header nav a:hover {
@@ -177,6 +184,7 @@ main {
 	padding:90px 10%;
 	padding-bottom:45px;
 	background:#f2f4f2;
+	line-height: 1.6;
 }
 
 /* a[href^"mailto"] damit valide {
@@ -223,6 +231,9 @@ footer {
 	padding:50px 7%;
 	text-align:right;
 	color:#AEBFAC;
+	font-family: 'Dosis', Helvetica, Arial, Lucida, sans-serif;
+	font-size: 16pt;
+	font-weight: 400;
 }
 
 footer a {
