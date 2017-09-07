@@ -52,8 +52,7 @@ ul {
 }
 
 ul li {
-	padding-bottom:10px;
-	text-indent: 2px;
+	padding-top:10px;
 	list-style: none;
 	list-style-position: outside;
 }
@@ -62,7 +61,9 @@ ul li:before {
 		content: url('../img/icons/circle-check.svg');
 		margin-right: 12px;
 		position: relative;
-		top: 5px;
+		top: 2px;
+		display: block;
+		float: left;
 }
 
 ol li {
@@ -109,9 +110,12 @@ h4 {
 
 .icon {
 	margin-right: 12px;
-	margin-bottom: 4px;
 	position: relative;
-	top: 7px;
+	top: 4px;
+}
+
+.iconarrow {
+	margin-right: 8px;
 }
 
 html {
@@ -245,10 +249,6 @@ footer {
 footer a {
 	color:#747F73;
 	padding:0 12px;
-}
-
-footer a img {
-	margin-right:8px;
 }
 
 

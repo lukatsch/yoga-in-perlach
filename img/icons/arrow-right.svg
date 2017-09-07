@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="15px" height="13px" viewBox="0 0 15 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
     <title>arrow-right</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="iconset" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="Artboard" transform="translate(-205.000000, -16.000000)" stroke="#3B9334" stroke-width="1.5">
-            <g id="arrow-right" transform="translate(205.000000, 16.000000)">
-                <polyline id="Path-3-Copy" transform="translate(7.500000, 6.500000) rotate(90.000000) translate(-7.500000, -6.500000) " points="7.52268051 13 7.52268051 0 2 5.52268051 7.52268051 0 13 5.52268051"></polyline>
-            </g>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="arrow-right" stroke="#3B9334" stroke-width="1.5">
+            <polyline id="Path-3-Copy" transform="translate(8.500000, 9.000000) rotate(90.000000) translate(-8.500000, -9.000000) " points="8.5 15.5 8.5 2.5 2.5 8.02268051 8.5 2.5 14.5 8.02268051"></polyline>
         </g>
     </g>
 </svg>

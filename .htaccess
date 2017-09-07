@@ -1,0 +1,5 @@
+# Turn on cache expiration (1 month) for static resources
+
+<FilesMatch "\.(ico|pdf|jpg|jpeg|png|gif|css|js)$">
+Header set Cache-Control "max-age=2592000"
+</FilesMatch>
